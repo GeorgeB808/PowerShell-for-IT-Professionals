@@ -52,6 +52,24 @@ PowerShell-for-IT-Professionals
 
 # 🚀 Planned Scripts
 
+# 📚 Script Library
+
+| Category              | Script                       | Status | Purpose                                      |
+| --------------------- | ---------------------------- | :----: | -------------------------------------------- |
+| System Administration | Get-SystemInformation.ps1    |    ✅   | Collects Windows system information          |
+| Networking            | Test-NetworkConnectivity.ps1 |    ✅   | Tests connectivity to common network targets |
+| System Administration | Get-DiskSpaceReport.ps1      |    ✅   | Reports disk usage and free space            |
+| System Administration | Get-RunningServices.ps1      |    ✅   | Lists active Windows services                |
+| Active Directory      | Get-ADUsersReport.ps1        |    ✅   | Displays Active Directory user accounts      |
+| Active Directory      | Search-ADUser.ps1            |    ⏳   | Search for a specific Active Directory user  |
+| Active Directory      | Unlock-ADAccount.ps1         |    ⏳   | Unlock a locked Active Directory account     |
+| Active Directory      | New-ADUsersFromCSV.ps1       |    ⏳   | Bulk-create Active Directory users from CSV  |
+| Reporting             | Export-ADUsersToCSV.ps1      |    ⏳   | Export Active Directory users to CSV         |
+| Microsoft 365         | Get-M365LicensedUsers.ps1    |    ⏳   | Display licensed Microsoft 365 users         |
+| Networking            | Test-PortConnectivity.ps1    |    ⏳   | Test TCP port availability                   |
+| Reporting             | Get-ComputerInventory.ps1    |    ⏳   | Generate a Windows computer inventory        |
+
+
 ## User Management
 
 * Create AD User
